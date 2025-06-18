@@ -669,7 +669,6 @@ if __name__ == '__main__':
                         help='rank of process in the node')
     parser.add_argument('--master_address', type=str, default='127.0.0.1',
                         help='address for master')
-    parser.add_argument('--fs', default=8)
     parser.add_argument('--wt', default=0.32)
 
     args = parser.parse_args()
